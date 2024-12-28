@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arid Reborn Items</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Arid Reborn Items</h1>
+    </header>
+    <main class="container my-4">
+        <div class="row">
+            <div id="item-list-container" class="col-md-8">
+                <div class="input-group mb-3">
+                    <input type="text" id="search-bar" class="form-control" placeholder="Search items...">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <ul id="item-list" class="list-group"></ul>
+            </div>
+            <div id="item-details-container" class="col-md-8 position-relative">
+                <button id="toggle-view" class="btn btn-primary position-absolute top-0 end-0 m-2">
+                    +
+                </button>
+                <pre id="item-details" class="border p-3 bg-light"></pre>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
